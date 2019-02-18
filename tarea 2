@@ -1,0 +1,86 @@
+//Nombre Juan Antonio Patiño Espinosa
+//Percepcion
+//Mat: 1633260
+
+//hora: N6 Dia:LMV
+//Programa cuadrado que cliqueas y se ilumina
+function setup() 
+{
+  createCanvas(400, 400);
+}
+
+
+
+function draw() 
+{
+  background(220);
+	
+	
+if(mouseIsPressed)
+	{
+		
+if(mouseX>150)
+		{
+			
+if(mouseX<250)
+			{
+				
+if(mouseY>150)
+				{
+					
+if(mouseY<250)
+					
+{background(0,255,0);
+					
+}
+				
+}
+			
+}
+		
+}
+	
+}
+	
+rect(150,150,100,100);
+}
+
+
+Pelota eje x
+//Segundo programa
+var x=200;
+
+var vel=1;
+
+function setup() 
+{
+  createCanvas(400, 400);
+}
+
+
+
+function draw() 
+{
+  background(220);
+	
+ellipse(x,200,50,50);
+	
+x=x+vel;
+	
+if(x>400)
+	
+{
+		
+vel=vel*-1;
+	
+}
+	
+if(x<25)
+		
+ {
+		
+ vel=vel*-1;
+		 
+}
+
+}
